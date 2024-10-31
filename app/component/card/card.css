@@ -1,0 +1,39 @@
+
+.card-main {
+
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.card-main h2 {
+
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--poppins_init);
+    color: #233d7b;
+}
+
+.card-main p{
+
+    font-size: 15px;
+    color: green;
+}
+
+.card-main p:last-child {
+
+    color: #7b8397;
+    font-weight: 500;
+}
+
+.card-main:hover {
+
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}

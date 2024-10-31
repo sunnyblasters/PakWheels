@@ -1,0 +1,162 @@
+.section-two  {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px auto;
+    padding: 40px 10px;
+    border: 1px solid rgb(212, 192, 192);
+    position: relative;
+    
+
+}
+
+.section-two .main-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 60px; */
+    width: 100%;
+}
+
+.left-div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    padding-right: 100px;
+    
+}
+
+.left-div h1 {
+
+    color: #233d7b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--lato_init);
+}
+
+.left-div button {
+
+    padding: 10px 35px;
+    background-color: #b73439;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.left-div button:hover {
+
+    
+    background-color: #9e2e32;
+    
+}
+
+.section-two .heading {
+
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    background: white;
+    padding: 0px 10px;
+}
+
+.left-div::before {
+
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: grey;
+    position: absolute;
+    left: 100%;
+    opacity: 50%;
+}
+
+.left-div::after {
+
+    content: 'OR';
+    position: absolute;
+    top: 40%;
+    left: 95%;
+    /* opacity: 50%; */
+    font-size: 30px;
+    font-weight: 600;
+    background-color: white;
+    color: grey;
+}
+
+.left-div .tick-icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: green;
+}
+
+.left-div .tick-icon p {
+
+    color: black;
+}
+
+
+.right-div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    position: relative;
+    padding-left: 100px;
+    
+}
+
+.right-div h1 {
+
+    color: #233d7b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--lato_init);
+}
+
+.right-div button {
+
+    padding: 10px 35px;
+    background-color: #518ecb;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.right-div button:hover {
+
+    
+    background-color: #4374a5;
+    
+}
+
+
+.right-div .tick-icon {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: green;
+}
+
+.right-div .tick-icon p {
+
+    color: black;
+}
